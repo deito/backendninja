@@ -1,4 +1,4 @@
-package com.udemy.backendninja.controller;
+package com.udemy.controller;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

@@ -1,4 +1,4 @@
-package com.udemy.backendninja.controller;
+package com.udemy.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
