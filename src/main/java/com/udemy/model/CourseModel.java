@@ -39,4 +39,10 @@ public class CourseModel {
 	}
 	
 	public CourseModel() {}
+	@Override
+	public String toString() {
+		return "CourseModel [name=" + name + ", description=" + description + ", price=" + price + ", hours=" + hours
+				+ "]";
+	}
+
 }
