@@ -16,7 +16,7 @@ public class User {
 
 	@Id
 	@Column(name = "username", unique = true, nullable = false, length = 45)
-	private String usernaame;
+	private String username;
 	
 	@Column(name = "password", nullable = false, length = 60)
 	private String password;
@@ -27,16 +27,16 @@ public class User {
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
 	private Set<UserRole> userRole = new HashSet<>();
 
-	public User(String usernaame, String password, boolean enabled) {
+	public User(String username, String password, boolean enabled) {
 		super();
-		this.usernaame = usernaame;
+		this.username = username;
 		this.password = password;
 		this.enabled = enabled;
 	}
 
-	public User(String usernaame, String password, boolean enabled, Set<UserRole> userRole) {
+	public User(String username, String password, boolean enabled, Set<UserRole> userRole) {
 		super();
-		this.usernaame = usernaame;
+		this.username = username;
 		this.password = password;
 		this.enabled = enabled;
 		this.userRole = userRole;
@@ -45,12 +45,12 @@ public class User {
 	public User() {
 	}
 
-	public String getUsernaame() {
-		return usernaame;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setUsernaame(String usernaame) {
-		this.usernaame = usernaame;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getPassword() {
