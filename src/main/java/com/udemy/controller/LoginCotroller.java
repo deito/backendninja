@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.udemy.configuration.constant.ViewConstant;
+import com.udemy.constant.ViewConstant;
 import com.udemy.model.UserCredential;
 
 @Controller

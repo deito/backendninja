@@ -1,4 +1,4 @@
-package com.udemy.configuration.constant;
+package com.udemy.constant;
 
 public class ViewConstant {
 
