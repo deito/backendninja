@@ -15,4 +15,7 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     properties:
       hibernate:
-        dilect: org.hibernate.dialect.MySQL5Dialect 
+        dilect: org.hibernate.dialect.MySQL5Dialect
+  
+  thymeleaf:
+    cache: false
